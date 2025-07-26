@@ -1,0 +1,43 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+}
+
+canvas {
+  border: 4px solid #00ffcc;
+  background-color: #111;
+}
+
+#startScreen {
+  color: #00ffcc;
+  text-align: center;
+}
+
+#startButton {
+  padding: 10px 20px;
+  font-size: 18px;
+  margin-top: 20px;
+  background-color: #00ffcc;
+  border: none;
+  cursor: pointer;
+  color: #000;
+  font-weight: bold;
+  border-radius: 8px;
+}
+
+#startButton:hover {
+  background-color: #00e6b8;
+}
+
+.stone {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    z-index: 2;
+}
